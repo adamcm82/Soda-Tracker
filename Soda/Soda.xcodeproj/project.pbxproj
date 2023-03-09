@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6683E4B129B67C3400CBFBAF /* SodaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6683E4B029B67C3400CBFBAF /* SodaApp.swift */; };
+		6683E4B329B67C3400CBFBAF /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6683E4B229B67C3400CBFBAF /* Persistence.swift */; };
+		6683E4B629B67C3400CBFBAF /* Soda.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6683E4B429B67C3400CBFBAF /* Soda.xcdatamodeld */; };
+		6683E4B829B67C3400CBFBAF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6683E4B729B67C3400CBFBAF /* ContentView.swift */; };
+		6683E4BA29B67C3600CBFBAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6683E4B929B67C3600CBFBAF /* Assets.xcassets */; };
+		6683E4BE29B67C3600CBFBAF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6683E4BD29B67C3600CBFBAF /* Preview Assets.xcassets */; };
+		6683E4C529B67D9300CBFBAF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6683E4C429B67D9300CBFBAF /* HomeView.swift */; };
+		6683E4C729B684F700CBFBAF /* SodasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6683E4C629B684F700CBFBAF /* SodasView.swift */; };
+		6683E4C929B6853700CBFBAF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6683E4C829B6853700CBFBAF /* SettingsView.swift */; };
+		6683E4CB29B6D16C00CBFBAF /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6683E4CA29B6D16C00CBFBAF /* HistoryView.swift */; };
+		6683E4CD29B7F45200CBFBAF /* BottleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6683E4CC29B7F45200CBFBAF /* BottleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6683E4AD29B67C3400CBFBAF /* Soda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Soda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6683E4B029B67C3400CBFBAF /* SodaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodaApp.swift; sourceTree = "<group>"; };
+		6683E4B229B67C3400CBFBAF /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		6683E4B529B67C3400CBFBAF /* Soda.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Soda.xcdatamodel; sourceTree = "<group>"; };
+		6683E4B729B67C3400CBFBAF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6683E4B929B67C3600CBFBAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6683E4BB29B67C3600CBFBAF /* Soda.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Soda.entitlements; sourceTree = "<group>"; };
+		6683E4BD29B67C3600CBFBAF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6683E4C429B67D9300CBFBAF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6683E4C629B684F700CBFBAF /* SodasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SodasView.swift; sourceTree = "<group>"; };
+		6683E4C829B6853700CBFBAF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6683E4CA29B6D16C00CBFBAF /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		6683E4CC29B7F45200CBFBAF /* BottleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6683E4AA29B67C3400CBFBAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6683E4A429B67C3400CBFBAF = {
+			isa = PBXGroup;
+			children = (
+				6683E4B029B67C3400CBFBAF /* SodaApp.swift */,
+				6683E4AF29B67C3400CBFBAF /* Soda */,
+				6683E4AE29B67C3400CBFBAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6683E4AE29B67C3400CBFBAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6683E4AD29B67C3400CBFBAF /* Soda.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6683E4AF29B67C3400CBFBAF /* Soda */ = {
+			isa = PBXGroup;
+			children = (
+				6683E4C429B67D9300CBFBAF /* HomeView.swift */,
+				6683E4CA29B6D16C00CBFBAF /* HistoryView.swift */,
+				6683E4B229B67C3400CBFBAF /* Persistence.swift */,
+				6683E4C829B6853700CBFBAF /* SettingsView.swift */,
+				6683E4C629B684F700CBFBAF /* SodasView.swift */,
+				6683E4B929B67C3600CBFBAF /* Assets.xcassets */,
+				6683E4BB29B67C3600CBFBAF /* Soda.entitlements */,
+				6683E4B429B67C3400CBFBAF /* Soda.xcdatamodeld */,
+				6683E4B729B67C3400CBFBAF /* ContentView.swift */,
+				6683E4CC29B7F45200CBFBAF /* BottleView.swift */,
+				6683E4BC29B67C3600CBFBAF /* Preview Content */,
+			);
+			path = Soda;
+			sourceTree = "<group>";
+		};
+		6683E4BC29B67C3600CBFBAF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6683E4BD29B67C3600CBFBAF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6683E4AC29B67C3400CBFBAF /* Soda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6683E4C129B67C3600CBFBAF /* Build configuration list for PBXNativeTarget "Soda" */;
+			buildPhases = (
+				6683E4A929B67C3400CBFBAF /* Sources */,
+				6683E4AA29B67C3400CBFBAF /* Frameworks */,
+				6683E4AB29B67C3400CBFBAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Soda;
+			productName = Soda;
+			productReference = 6683E4AD29B67C3400CBFBAF /* Soda.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6683E4A529B67C3400CBFBAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					6683E4AC29B67C3400CBFBAF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 6683E4A829B67C3400CBFBAF /* Build configuration list for PBXProject "Soda" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6683E4A429B67C3400CBFBAF;
+			productRefGroup = 6683E4AE29B67C3400CBFBAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6683E4AC29B67C3400CBFBAF /* Soda */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6683E4AB29B67C3400CBFBAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6683E4BE29B67C3600CBFBAF /* Preview Assets.xcassets in Resources */,
+				6683E4BA29B67C3600CBFBAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6683E4A929B67C3400CBFBAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6683E4C929B6853700CBFBAF /* SettingsView.swift in Sources */,
+				6683E4CB29B6D16C00CBFBAF /* HistoryView.swift in Sources */,
+				6683E4B129B67C3400CBFBAF /* SodaApp.swift in Sources */,
+				6683E4B329B67C3400CBFBAF /* Persistence.swift in Sources */,
+				6683E4B829B67C3400CBFBAF /* ContentView.swift in Sources */,
+				6683E4C729B684F700CBFBAF /* SodasView.swift in Sources */,
+				6683E4C529B67D9300CBFBAF /* HomeView.swift in Sources */,
+				6683E4B629B67C3400CBFBAF /* Soda.xcdatamodeld in Sources */,
+				6683E4CD29B7F45200CBFBAF /* BottleView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6683E4BF29B67C3600CBFBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6683E4C029B67C3600CBFBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6683E4C229B67C3600CBFBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Soda/Soda.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Soda/Preview Content\"";
+				DEVELOPMENT_TEAM = 9V8NZSA93W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patagol.Soda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6683E4C329B67C3600CBFBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Soda/Soda.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Soda/Preview Content\"";
+				DEVELOPMENT_TEAM = 9V8NZSA93W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.patagol.Soda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6683E4A829B67C3400CBFBAF /* Build configuration list for PBXProject "Soda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6683E4BF29B67C3600CBFBAF /* Debug */,
+				6683E4C029B67C3600CBFBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6683E4C129B67C3600CBFBAF /* Build configuration list for PBXNativeTarget "Soda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6683E4C229B67C3600CBFBAF /* Debug */,
+				6683E4C329B67C3600CBFBAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6683E4B429B67C3400CBFBAF /* Soda.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6683E4B529B67C3400CBFBAF /* Soda.xcdatamodel */,
+			);
+			currentVersion = 6683E4B529B67C3400CBFBAF /* Soda.xcdatamodel */;
+			path = Soda.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6683E4A529B67C3400CBFBAF /* Project object */;
+}
